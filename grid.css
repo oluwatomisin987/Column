@@ -1,0 +1,147 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  padding: 80px 50px 80px  50px;
+}
+
+main{
+  display: grid;
+  /* grid-area: one; */
+  grid-template-areas: 
+  'a a b'
+  'c d d'
+  'c e e';
+  gap: 10px;
+  
+
+}
+
+main div{
+  padding: 3rem;
+  
+}
+
+
+
+.item-a{
+  background-color: red;
+  grid-area: a;
+}
+
+
+.item-b{
+  background-color: blue;
+  grid-area: b;
+}
+
+.item-c{
+  background-color:deeppink;
+  grid-area: c;
+}
+
+
+.item-d{
+  background-color: yellow;
+  grid-area: d;
+}
+
+.item-e{
+  background-color: forestgreen;
+  grid-area: e;
+}
+
+
+a{
+  text-decoration: none;
+  border: 2px black dotted;
+  font-size: 60px;
+  background-color: brown;
+  border-radius: 10px;
+  color: antiquewhite;
+  padding: 5px;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+  background-color: darkblue;
+  display: flex;
+   place-items: center; 
+  height: 100vh;
+}
+
+main{
+  display: grid;
+  grid-template-areas: 
+  'a a a b'
+   'c c d d'
+   'c  ce e';
+  width: 40%;
+   height: 100vh; 
+  margin: auto ;
+  gap: 5px;
+}
+
+main div{
+  padding: 5rem;
+  /* text-align: center; 
+}
+
+
+
+.item-a{
+  background-color: red;
+  grid-area: a;
+}
+
+
+.item-b{
+  background-color: blue;
+  grid-area: b;
+}
+
+.item-c{
+  background-color:deeppink;
+  grid-area: c;
+}
+
+
+.item-d{
+  background-color: yellow;
+  grid-area: d;
+}
+
+.item-e{
+  background-color: forestgreen;
+  grid-area: e;
+}*/
+
+  
+
